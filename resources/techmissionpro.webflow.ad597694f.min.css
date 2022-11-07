@@ -13146,9 +13146,9 @@ p {
         padding-top: 15px;
         padding-bottom: 15px;
         background-image: -webkit-gradient(linear, left top, right top, from(#00ff6f), to(#1bffff));
-        background-image: linear-gradient(90deg, #00ff6f, #1bffff);
+        background-image: linear-gradient(90deg, #ff0018, #1b89ff0d);
         font-family: Montserrat, sans-serif;
-        color: #00ff0b;
+        color: #10ff;
         font-size: 32px;
         line-height: 53px;
         font-weight: 800;
@@ -13333,6 +13333,25 @@ p {
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent
+    }
+    .text-span-5 {
+        font-weight: 700
+    }
+    .text-span-6 {
+        font-style: italic;
+        font-weight:normal
+    }
+    .text-span-7 {
+        text-align: right
+    }
+    .text-span-8 {
+        text-align: center
+    }
+    .text-span-9 {
+        text-align: left
+    }
+    .text-span-10 {
+        text-align: justify
     }
 
     .div-block-36 {
@@ -22642,4 +22661,5 @@ p {
     .div-block-350, .div-block-351, .div-block-352, .div-block-353 {
         text-align: center
     }
+  
 }
