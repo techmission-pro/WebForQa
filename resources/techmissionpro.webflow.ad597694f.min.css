@@ -2043,6 +2043,7 @@ textarea.w-input, textarea.w-select {
 }
 
 body {
+    padding-top: 94px;
     margin: 0;
     min-height: 100%;
     background-color: #fff;
@@ -2342,7 +2343,7 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -3198,6 +3199,7 @@ p {
 
 .text-block-9 {
     font-family: Montserrat, sans-serif;
+    padding-left: 20px;
     color: #303030;
     font-size: 16px;
     line-height: 28px
@@ -13024,6 +13026,7 @@ p {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
+        flex-direction: row-reverse;
         max-width: 370px;
         margin-bottom: 25px;
         padding: 25px;
@@ -22642,4 +22645,10 @@ p {
     .div-block-350, .div-block-351, .div-block-352, .div-block-353 {
         text-align: center
     }
+/* 
+    .emoji {
+        display: inline-block;
+        height: 2em;
+        width: 2em
+    } */
 }
