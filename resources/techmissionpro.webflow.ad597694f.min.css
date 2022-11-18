@@ -3049,7 +3049,7 @@ p {
 
 .text-block-5 {
     font-family: Montserrat, sans-serif;
-    color: #303030
+    color: #33333
 }
 
 .div-block-5 {
@@ -3070,7 +3070,7 @@ p {
     align-items: stretch
 }
 
-.div-block-6 {
+.div-block-6:nth-child(2n) {
     display: block;
     max-width: 229px;
     margin-bottom: 10px;
@@ -3081,8 +3081,13 @@ p {
     justify-content: space-between;
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #888;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
+    
+}
+
+.div-block-6:nth-child(2n) .text-block-5 {
+    color:blue
 }
 
 .div-block-7 {
@@ -3129,13 +3134,14 @@ p {
     justify-content: flex-end
 }
 
-.text-block-6 {
+.text-block-6{
     margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
     line-height: 38px;
     font-weight: 700;
     text-transform: uppercase
+   
 }
 
 .div-block-10 {
