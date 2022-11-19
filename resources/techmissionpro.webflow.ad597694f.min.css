@@ -13026,20 +13026,20 @@ p {
         display: flex;
         max-width: 370px;
         margin-bottom: 25px;
-        padding: 25px;
+        padding: 25px;        
         -webkit-box-align: start;
         -webkit-align-items: flex-start;
         -ms-flex-align: start;
         align-items: flex-start;
         border-radius: 8px;
         background-color: #f7f7f7;
-        box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
+        box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
     }
 
     .text-block-9 {
         font-family: Montserrat, sans-serif;
         color: #303030;
-        line-height: 28px
+        line-height: 28px;        
     }
 
     .div-block-13 {
