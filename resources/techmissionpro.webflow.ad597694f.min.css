@@ -180,6 +180,14 @@ td, th {
     width: 0.85em
 }
 
+.div-block-6:nth-child(2n) .text-block-5{
+    color:deepskyblue;
+}
+
+.div-block-6:nth-child(even) {
+    background-image: linear-gradient(45deg, #bdbdbd 5%, #94979c 25%, #6a686d 60%, #333235 95%);
+}
+
 .w-icon-slider-right:before {
     content: "\e600"
 }
