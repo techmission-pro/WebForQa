@@ -174,6 +174,12 @@ td, th {
     -moz-osx-font-smoothing: grayscale
 }
 
+.emoji {
+    /* display: inline-block; */
+    height: 0.85em;
+    width: 0.85em
+}
+
 .w-icon-slider-right:before {
     content: "\e600"
 }
@@ -22645,10 +22651,4 @@ p {
     .div-block-350, .div-block-351, .div-block-352, .div-block-353 {
         text-align: center
     }
-/* 
-    .emoji {
-        display: inline-block;
-        height: 2em;
-        width: 2em
-    } */
 }
