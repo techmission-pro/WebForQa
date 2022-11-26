@@ -1245,3 +1245,16 @@
 .div-block-6:nth-child(2n) .text-block-5 {
         color: blue;
 }
+.calc-input1 {
+	width: 130px;
+	text-align: center;
+	background: linear-gradient(#80cdce, #fcf987, #9198e5);
+		}
+	.calc-input2 {
+	width: 140px;
+	text-align: center;
+	background: linear-gradient(#80cdce, #faa038, #9198e5);
+		}
+	.calc-calc {
+		background: linear-gradient(#367b37, #06fa09, #128d14);
+		}
