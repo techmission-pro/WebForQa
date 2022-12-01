@@ -1,5 +1,5 @@
-document.querySelector('.calc-calculate').addEventListener('click', function () {
-	const num1 = +document.querySelector('[name="num1"]').value;
+function calculate() {
+    const num1 = +document.querySelector('[name="num1"]').value;
 	const num2 = +document.querySelector('[name="num2"]').value;
 	const op = document.querySelector('[name="op"]').value;
 	
@@ -14,12 +14,25 @@ document.querySelector('.calc-calculate').addEventListener('click', function () 
     } else if (op === 'divide') {
 	    result = num1 / num2;
 	} else {
-        console.error('Wrong op!')
+        console.error('Wrong op!');
         alert('Wrong operation is selected');
     } 		
 	
 	document.querySelector('.calc-result').value = result;
+}
 
+document.querySelector('.calc-calculate').addEventListener('click', function() {
+	calculate();
+})
+
+document.querySelector('[name="op"]').addEventListener('change', function() {
+	calculate();
+})
+
+document.querySelector('[name="num1"]').addEventListener('change', function() {
+	calculate();
 });
-		
-		
+	
+document.querySelector('[name="num2"]').addEventListener('change', function() {	
+	calculate();
+});
