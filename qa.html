@@ -38,8 +38,12 @@
         .div-block-12 {
             flex-direction: row-reverse;
         }
-        .div-block-12 .text-block-9 {padding-left:15px;
+        .div-block-12 .text-block-9 { padding-left:15px;
         }
+        .div-block-12:nth-child(2n+1) .text-block-9 {
+            color: pink;
+        }
+        
         .emoji{
             display: inline-block;
             width: 1em;
@@ -50,6 +54,9 @@
         }
         .div-block-6:nth-child(2n) .text-block-5 {
             color:blue;
+        }
+        .div-block-6:nth-child(3n) .text-block-5{
+            color: red;
         }
     </style>
 </head>
