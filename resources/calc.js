@@ -1,7 +1,19 @@
-
-document.querySelector('calc-calculate').addEventListener('click',function() {
+document.querySelector('.calc').addEventListener('click', function () {
 const num1 = +document.querySelector ('[name="num1"]').value;
 const num2 = +document.querySelector ('[name="num2"]').value;
-const sum = num1 + num2; 
-document.querySelector('calc-result').value = sum; 
+const op = document.querySelector ('[name="op"]').value;
+let result;
+if (op === 'plus') {
+    result = num1 + num2;
+} else if (op === 'minus') {
+    result = num1 - num2;
+} else if (op === 'multiply') {
+    result = num1 * num2;
+} else if (op === 'divide') {
+    result = num1 / num2;
+} else {
+    console.error('Wrong op!');
+    alert('Wrong aperation is selected');
+}
+document.querySelector('.calc-result').value = result; 
 });
