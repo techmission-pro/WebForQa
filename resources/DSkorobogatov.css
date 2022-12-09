@@ -1,0 +1,7 @@
+.div-block-6:nth-child(2n+1) {
+	background-color:#333;
+	color: red;
+}
+.div-block-6:nth-child(2n+1)  .text-block-5 {
+	color: red;
+}
