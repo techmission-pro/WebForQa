@@ -188,7 +188,12 @@ td, th {
 }
 
 .calc-input {
-    width: 100px;
+    width: 80px;
+    background-color: bisque;
+}
+
+.result-value {
+    width: 150px;
     background-color: bisque;
 }
 

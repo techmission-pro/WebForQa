@@ -6,16 +6,20 @@ function calculate(){
     const operation = document.querySelector('[name="oper"]').value;
     
     let result;
-    if (operation==="plus") {
+    if (operation==="Addition") {
         result = num1 + num2;
-    } else if (operation==="minus") {
+    } else if (operation==="Subtraction") {
         result = num1 - num2;
-    } else if (operation==="divide") {
+    } else if (operation==="Division") {
         result = num1 / num2;
-    } else if (operation==="multiply") {
+    } else if (operation==="Multiplication") {
         result = num1 * num2;
+    } else if (operation==="Modulo") {
+        result = num1 % num2;
+    } else if (operation==="Exponent") {
+        result = num1 ** num2;
     } else {
-        result = Null
+        result = "";
     }
     document.querySelector('.result-value').value = result;
 }
