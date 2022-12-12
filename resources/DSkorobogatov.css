@@ -5,3 +5,23 @@
 .div-block-6:nth-child(2n+1)  .text-block-5 {
 	color: red;
 }
+#scroll-block .calc{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.calc input {
+	max-width: 30%;
+	border-radius: 30px;
+	border: 1px solid gray;
+}
+.calc input:focus {
+	outline-color: purple;
+}	
+.schedule {
+	max-width: 90%;
+}
+.calc-img {
+	display: flex; 
+    justify-content: flex-end;
+}
