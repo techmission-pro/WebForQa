@@ -175,7 +175,6 @@ td, th {
 }
 
 .emoji {
-    /* display: inline-block; */
     height: 0.85em;
     width: 0.85em
 }
@@ -190,7 +189,7 @@ td, th {
 
 .calc-input {
     width: 100px;
-    /* background-color: bisque; */
+    background-color: bisque;
 }
 
 .w-icon-slider-right:before {

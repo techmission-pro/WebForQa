@@ -1,12 +1,10 @@
-console.log("calculator loaded");
+
 document.querySelector('.button-calculate').addEventListener('click', function(){
     const num1 = +document.querySelector('[name="num1"]').value;
     const num2 = +document.querySelector('[name="num2"]').value;
     const operation = document.querySelector('[name="oper"]').value;
-    // const sum = num1+num2;
-    console.log(operation);
+    
     let result=0;
-    console.log(result);
     if (operation==="plus") {
         result = num1 + num2;
     } else if (operation==="minus") {
@@ -18,7 +16,6 @@ document.querySelector('.button-calculate').addEventListener('click', function()
     } else {
         result = Null
     }
-    console.log(result);
     document.querySelector('.result-value').value = result;
 
 });
