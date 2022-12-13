@@ -387,21 +387,22 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calculator">
-                    <input type="number" name="num1" class="calc-input"/>
+                    <br>
+                    <input type="number" name="num1" value=0 class="calc-input"/>
                     <select name="oper" class="calc-operation">
-                        <option value = "Addition"> + (аdd)</option>
-                        <option value = "Subtraction"> - (subtract)</option>
-                        <option value = "Division"> ÷ (divide )</option>
-                        <option value = "Multiplication"> * (multiply) </option>
-                        <option value = "Modulo"> % (modulo)</option>
-                        <option value = "Exponent"> ** (to the power of)</option>
-                        <option value = "Factorial"> ! (fact)</option>
+                        <option value = "Addition" selected>аdd</option>
+                        <option value = "Subtraction">subtract</option>
+                        <option value = "Division">divide</option>
+                        <option value = "Multiplication">multiply</option>
+                        <option value = "Modulo">modulo</option>
+                        <option value = "Exponent">to the power of</option>
+                        <option value = "Factorial">factorial</option>
+                        <option value = "Evaluate">evaluate</option>
                     </select>
-
-                    <input type="number" name="num2" class="calc-input"/>
+                    <input type="number" name="num2" value=0 class="calc-input"/>
                     <button type="button" class="button-calculate">=</button>
-                    <input type="text" readonly class="calc-input result-value"/>
-
+                    <input type="text" readonly value=0 class="result-value"/>
+                    <input type="text" placeholder="Input math expression here, using symbols '0123456789 .+-*/%!()" id="eval-str" class="calc-eval"/>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>

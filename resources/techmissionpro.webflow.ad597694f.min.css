@@ -189,12 +189,22 @@ td, th {
 
 .calc-input {
     width: 80px;
-    background-color: bisque;
+    background-color: #FFF8DC;
+}
+
+.calc-operation {
+    width: 120px
+}
+
+.calc-eval {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #FFF8DC;
 }
 
 .result-value {
     width: 150px;
-    background-color: bisque;
+    background-color: #FFF8DC;
 }
 
 .w-icon-slider-right:before {
