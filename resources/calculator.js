@@ -29,7 +29,7 @@ function calculate(){
     const num2 = +document.querySelector('[name="num2"]').value;
     const operation = document.querySelector('[name="oper"]').value;
     set_visibility(operation);
-    var eval_string, result;
+    var result;
     if (operation==="Addition") {
         result = num1 + num2;
     } else if (operation==="Subtraction") {
@@ -57,8 +57,8 @@ function calculate(){
 }
 
 document.querySelector('[name="oper"]').addEventListener('change',function(){
-    const operation = document.querySelector('[name="oper"]').value;
-    set_visibility(operation);
+    set_visibility(document.querySelector('[name="oper"]').value);
+    calculate();
 });
 
 document.querySelector('.button-calculate').addEventListener('click',function(){
@@ -70,10 +70,6 @@ document.querySelector('[name="num1"]').addEventListener('input',function(){
 });
 
 document.querySelector('[name="num2"]').addEventListener('input',function(){
-    calculate();
-});
-
-document.querySelector('[name="oper"]').addEventListener('change',function(){
     calculate();
 });
 

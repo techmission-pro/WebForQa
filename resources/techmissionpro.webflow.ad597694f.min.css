@@ -188,23 +188,31 @@ td, th {
 }
 
 .calc-input {
-    width: 80px;
+    width: 90px;
+}
+
+.calculator input {
+    border-radius: 5px;
     background-color: #FFF8DC;
 }
 
-.calc-operation {
-    width: 120px
+.calculator input:focus {
+    background-color:#f5deb3;
+}
+
+.button-calculate {
+    border-radius: 5px;
+    /* width: 35px; */
+    width: 2em;
+}
+
+.result-value {
+    width: 150px;
 }
 
 .calc-eval {
     width: 100%;
     margin-top: 10px;
-    background-color: #FFF8DC;
-}
-
-.result-value {
-    width: 150px;
-    background-color: #FFF8DC;
 }
 
 .w-icon-slider-right:before {

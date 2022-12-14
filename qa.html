@@ -387,7 +387,6 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calculator">
-                    <br>
                     <input type="number" name="num1" value=0 class="calc-input"/>
                     <select name="oper" class="calc-operation">
                         <option value = "Addition" selected>аdd</option>
@@ -402,7 +401,8 @@
                     <input type="number" name="num2" value=0 class="calc-input"/>
                     <button type="button" class="button-calculate">=</button>
                     <input type="text" readonly value=0 class="result-value"/>
-                    <input type="text" placeholder="Input math expression here, using symbols '0123456789 .+-*/%!()" id="eval-str" class="calc-eval"/>
+                    <input type="text" placeholder="Input math expression here, using symbols '0..9 .+-*/%()" id="eval-str" class="calc-eval"
+                    oninput="this.value = this.value.replace(/[a-zа-я~`!@#$&_=:;|?,<>₴№ёіїґє&quot\'\{\}\[\]\^\\]/ig, '');" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
